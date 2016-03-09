@@ -1,0 +1,7 @@
+elasticsearch:
+  image: elasticsearch:2.2.0
+  user: "1000:50"
+  ports:
+    - "9200:9200"
+  volumes:
+    - /Users/poc/workspace/mitJobProjects/es_search_env_for_mit_jobs/elastic_search/es_datastore:/usr/share/elasticsearch/data
